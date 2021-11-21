@@ -1,6 +1,33 @@
 [
   {
-    "repository": "android_device_xiaomi_sdm845-common",
-    "target_path": "device/xiaomi/sdm845-common"
+    "remote": "github",
+    "repository": "itsaniketdubey/android_device_xiaomi_sdm845-common",
+    "target_path": "device/xiaomi/sdm845-common",
+    "branch":"11.0"
+  },
+  {
+    "remote": "github",
+    "repository": "itsaniketdubey/android_device_xiaomi_beryllium",
+    "target_path": "device/xiaomi/beryllium",
+    "branch":"11.0"
+  },
+  {
+    "remote": "github",
+    "repository": "itsaniketdubey/android_vendor_xiaomi",
+    "target_path": "vendor/xiaomi",
+    "branch":"11"
+  },
+  {
+    "remote": "github",
+    "repository": "PainKiller3/kernel_xiaomi_sdm845",
+    "target_path": "kernel/xiaomi/sdm845",
+    "branch": "twelve"
+  },
+  {
+    "remote": "github",
+    "repository": "kdrag0n/proton-clang",
+    "target_path": "prebuilts/clang/host/linux-x86/clang-proton",
+    "branch": "master"
+    "depth" : "1"
   }
 ]
